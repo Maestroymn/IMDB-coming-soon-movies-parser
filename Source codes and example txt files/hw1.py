@@ -1,14 +1,6 @@
 import re
 import datetime
 
-#Following 6 line simply for the purpose of getting the whole IMDB website link into a text file to parse it later on
-u = urllib.request.urlopen('https://www.imdb.com/movies-coming-soon/2019-04/') #You need to put specific month of the upcoming movies to get the info's
-x = u.read().decode('UTF-8')
-soup = BeautifulSoup(x,'html.parser')
-f = open('april_coming.txt','w') #this line will create a new txt file and write all the given link infos inside the text file
-f.write(soup.text)
-f.close()
-
 # Basic object to hold every movie in it
 class movie:
     def __init__(Movie, movieName, year, releaseDate, genre, synopsis, director, stars):
