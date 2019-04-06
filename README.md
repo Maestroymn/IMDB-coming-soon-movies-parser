@@ -58,10 +58,19 @@ Again, you are free to INPUT several files into the code as long as there is suc
 	Peterloo
 	The Biggest Little Farm
 	Teen Spirit
+ ___5) LIST genre:genrename___
+ 	The main purpose of this command is to list the movies that includes the genres that you specify withing your input. A sample run: 
 	
- ___5) INFO moviename___
+	LIST genre:Action,Sci-Fi
+	Listing genre:Action,Sci-Fi ...
+	Shazam!
+	Hellboy
+	...
+ 
+ ___6) INFO moviename___
  	The main purpose of this command is to list all the detailed information(production year, release date, genre, synopsis, director(s) and star(s)) about the movie that you specify within your input. A sample run:
 	
+	INFO Shazam!
 	Info ...
 	Shazam!
 	Production year: 2019
