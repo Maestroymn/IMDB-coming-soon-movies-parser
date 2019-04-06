@@ -19,7 +19,12 @@ __An example case:__
   You can work with several months. All you need to do is keep all the coming soon month data in different text files. So, you just need to copy and paste the first 6 line and change the links according to your purpose.
 # Commands
   ___1) INPUT:___
-  The main purpose of the command is to ensure that the specific month(s) that you will input with, will be parsed into a usable way. To use the "INPUT" command you need to make sure that you have created your coming soon movie month text file which is currently in unclear status. For example, let's assume that you have created your upcoming april month movies text file as "april_coming.txt". You will use the INPUT command like this: _INPUT april_coming.txt_ 	
+  The main purpose of the command is to ensure that the specific month(s) that you will input with, will be parsed into a usable way. To use the "INPUT" command you need to make sure that you have created your coming soon movie month text file which is currently in unclear status. For example, let's assume that you have created your upcoming april month movies text file as "april_coming.txt". You will use the INPUT command like this: _INPUT april_coming.txt_ A sample run:
+  
+	INPUT data/april_coming.txt
+	Loading data/april_coming.txt ...
+	INPUT data/may_coming.txt
+	Loading data/may_coming.txt ...
 	
 Again, you are free to INPUT several files into the code as long as there is such txt file containing souped IMDB movie site link.
  
