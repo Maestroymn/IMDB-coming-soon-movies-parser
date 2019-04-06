@@ -1,6 +1,7 @@
 import re
 import datetime
 
+
 # Basic object to hold every movie in it
 class movie:
     def __init__(Movie, movieName, year, releaseDate, genre, synopsis, director, stars):
@@ -223,7 +224,6 @@ if __name__ == '__main__':
                 newMovie = movie(text[index], yearsList[index], mainDateList[index], mainGenreList[index],
                                  synopsisList[index], mainDirectorList[index], mainStarList[index])
                 MovieList.append(newMovie)
-            MovieList.sort()
         elif action == 'LIST':
             print('Listing...')
             for movies in text: # This loop is listing the movie names which is currently in data
