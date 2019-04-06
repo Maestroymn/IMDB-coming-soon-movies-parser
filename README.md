@@ -22,6 +22,7 @@ __An example case:__
   The main purpose of the command is to ensure that the specific month(s) that you will input with, will be parsed into a usable way. To use the "INPUT" command you need to make sure that you have created your coming soon movie month text file which is currently in unclear status. For example, let's assume that you have created your upcoming april month movies text file as "april_coming.txt". You will use the INPUT command like this: _INPUT april_coming.txt_ 	
 	
 Again, you are free to INPUT several files into the code as long as there is such txt file containing souped IMDB movie site link.
+ 
  ___2) LIST:___
  The main purpose of this command is to list all the movie names of the month(s) that you inputted txt files with using INPUT command. A sample run:
  
