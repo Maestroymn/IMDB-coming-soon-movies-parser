@@ -59,7 +59,7 @@ Again, you are free to INPUT several files into the code as long as there is suc
 	The Biggest Little Farm
 	Teen Spirit
 	
- ___5) INFO Shazam!___
+ ___5) INFO moviename___
  	The main purpose of this command is to list all the detailed information(production year, release date, genre, synopsis, director(s) and star(s)) about the movie that you specify within your input. A sample run:
 	
 	Info ...
