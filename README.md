@@ -47,7 +47,7 @@ Again, you are free to INPUT several files into the code as long as there is suc
 	Missing Link
 	...
 	
- ___4) LIST from:YYYY-MM-DD: to:YYYY-MM-DD___
+ ___4) LIST from:YYYY-MM-DD: to:YYYY-MM-DD:___
 	 The main purpose of this command is to list all the movie names that within the dates that you specify within your input. A sample run: 
 	 
 	LIST from:2019-04-05 to:2019-04-10
@@ -58,7 +58,7 @@ Again, you are free to INPUT several files into the code as long as there is suc
 	Peterloo
 	The Biggest Little Farm
 	Teen Spirit
- ___5) LIST genre:genrename___
+ ___5) LIST genre:genrename:___
  	The main purpose of this command is to list the movies that includes the genres that you specify withing your input. A sample run: 
 	
 	LIST genre:Action,Sci-Fi
@@ -67,7 +67,7 @@ Again, you are free to INPUT several files into the code as long as there is suc
 	Hellboy
 	...
  
- ___6) INFO moviename___
+ ___6) INFO moviename:___
  	The main purpose of this command is to list all the detailed information(production year, release date, genre, synopsis, director(s) and star(s)) about the movie that you specify within your input. A sample run:
 	
 	INFO Shazam!
